@@ -1,22 +1,110 @@
-Linguistics Tracker
+Linguistics Tracker (CLI)
 
-A Python project that analyzes text samples from different time periods and dialects.  
-It generates a **readability report** and tracks the frequency of specific target words.
+A Python-based tool for analyzing text readability and tracking specific word usage across different time periods and dialects.
+Ideal for linguistic research, historical text comparison, and dialect variation studies.
+
+ About the Project
+
+This project was developed as part of the LAUTECH CSC 202 coursework to demonstrate practical applications of Python in text processing and computational linguistics.
+It allows users to explore how language changes over time and across regions, providing quantitative metrics and word frequency counts.
+The tool is simple, lightweight, and works entirely via the command line — no extra libraries required.
+
+ Features
+
+Readability Analysis — calculates:
+
+Average sentence length (in words)
+
+Average word length (in characters)
+
+Word Usage Tracking for predefined target words
+
+Supports Multiple Datasets:
+
+Time-based (e.g., 1800s vs. 1900s)
+
+Dialect-based (e.g., African, American, British)
+
+Generates a Detailed Report (analysis_report.txt)
+
+Simple Command-Line Interface (CLI) for quick usage
+
+ Dataset Structure
+datatime/
+ ├── 1800s/
+ │    └── sample.txt
+ ├── 1900s/
+ │    └── sample.txt
+
+datadialects/
+ ├── african/
+ │    └── sample.txt
+ ├── american/
+ │    └── sample.txt
+ ├── british/
+ │    └── sample.txt
+
+modules/
+ └── azura_loader.py
+
+run_tracker.py
+analysis_report.txt
+README.md
 
  How to Run
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
-   cd YOUR_REPOSITORY_NAME
+1️⃣ Clone the Repository
+git clone https://github.com/Lagosboy006/LAUTECH-CSC-202-LINGUISTICS-TRACKER--GROUP-69-.git
+cd LAUTECH-CSC-202-LINGUISTICS-TRACKER--GROUP-69-
 
-
-   
-2. Run the program:
-
+2️⃣ Run the Program
 python run_tracker.py
-The output will:
 
-Show results in the terminal.
+ Output
+
+The program will:
+
+Display results in the terminal
+
+Save a full report as analysis_report.txt
+
+Example:
+
+ Readability for British:
+ Avg Sentence Length: 14.25 words
+ Avg Word Length: 5.12 characters
+
+ Word Usage in British:
+🔹 honour: 3
+🔹 color: 0
+🔹 civilisation: 1
+...
+ Report saved to analysis_report.txt
+
+ Example Target Words
+
+honour
+
+color
+
+civilisation
+
+labour
+
+thee
+
+freedom
+
+ Requirements
+
+Python 3.7+
+
+No external libraries required (uses built-in Python modules)
+
+Notes
+
+Ensure that dataset folder structure is maintained for the script to work properly.
+
+You can replace the sample text files with your own datasets.
 
 
 
@@ -26,19 +114,3 @@ Show results in the terminal.
 
 
 
-
-
-
-3. Save them into analysis_report.txt.
-Project Structure
-run_tracker.py           # Main script
-analysis_report.txt      # Output report
-modules/
-    azura_loader.py      # Loader function
-datatime/
-    1800s/               # Text samples from 1800s
-    1900s/               # Text samples from 1900s
-datadialects/
-    african/             # African English samples
-    american/            # American English samples
-    british/             # British English samples
