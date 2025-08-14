@@ -1,0 +1,70 @@
+
+🧠 Readability for 1800s:
+📏 Avg Sentence Length: 130345.00 words
+🔠 Avg Word Length: 4.48 characters
+
+
+🧠 Readability for 1900s:
+📏 Avg Sentence Length: 51219.00 words
+🔠 Avg Word Length: 4.43 characters
+
+
+🧠 Readability for British:
+📏 Avg Sentence Length: 29497.00 words
+🔠 Avg Word Length: 4.30 characters
+
+
+🧠 Readability for American:
+📏 Avg Sentence Length: 73832.00 words
+🔠 Avg Word Length: 4.38 characters
+
+
+🧠 Readability for African:
+📏 Avg Sentence Length: 31353.00 words
+🔠 Avg Word Length: 4.21 characters
+
+
+📊 Word Usage in British:
+
+🔹 honour: 2
+🔹 color: 0
+🔹 civilisation: 0
+🔹 labour: 0
+🔹 thee: 0
+🔹 freedom: 0
+
+📊 Word Usage in American:
+
+🔹 honour: 0
+🔹 color: 1
+🔹 civilisation: 0
+🔹 labour: 0
+🔹 thee: 4
+🔹 freedom: 1
+
+📊 Word Usage in African:
+
+🔹 honour: 0
+🔹 color: 0
+🔹 civilisation: 0
+🔹 labour: 0
+🔹 thee: 0
+🔹 freedom: 0
+
+📊 Word Usage in 1800s:
+
+🔹 honour: 42
+🔹 color: 0
+🔹 civilisation: 0
+🔹 labour: 1
+🔹 thee: 0
+🔹 freedom: 5
+
+📊 Word Usage in 1900s:
+
+🔹 honour: 1
+🔹 color: 0
+🔹 civilisation: 0
+🔹 labour: 0
+🔹 thee: 0
+🔹 freedom: 2
